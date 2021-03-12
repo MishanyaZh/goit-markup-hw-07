@@ -15,32 +15,33 @@
 
   <body>
     <!--header-->
-    <header>
+    <header class="header--sticky">
       <div class="container">
         <nav class="header">
           <ul class="nav">
             <li>
-              <a class="logo-accent" href="./index.html"
+              <a class="logo-accent logo-accent--header" href="./index.html"
                 >Web<span class="logo-dark">Studio</span>
               </a>
             </li>
-            <li><a class="nav-item current" href="./index.html">Студия</a></li>
-            <li><a class="nav-item" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="nav-item" href="">Контакты</a></li>
+            <li><a class="nav__item current" href="./index.html">Студия</a></li>
+            <li><a class="nav__item" href="./portfolio.html">Портфолио</a></li>
+            <li><a class="nav__item" href="">Контакты</a></li>
           </ul>
+
           <ul class="nav-contact">
-            <li class="icon-hover">
-              <a class="nav-cont" href="mailto:info@devstudio.com">
-                <svg class="nav-icon-mail" width="16" height="12">
+            <li class="nav-contact__item">
+              <a class="nav-contact__link" href="mailto:info@devstudio.com">
+                <svg class="nav-contact__icon-mail" width="16" height="12">
                   <use href="./img/symbol-defs.svg#icon-mail-to"></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
 
-            <li>
-              <a class="nav-cont" href="tel:+380961111111">
-                <svg class="nav-icon-tel" width="10" height="16">
+            <li class="nav-contact__item">
+              <a class="nav-contact__link" href="tel:+380961111111">
+                <svg class="nav-contact__icon-tel" width="10" height="16">
                   <use href="./img/symbol-defs.svg#icon-smartphone"></use>
                 </svg>
                 +38 096 111 11 11
@@ -53,16 +54,15 @@
 
     <main>
       <!--Geroy-->
-
       <section class="geroy">
-        <div class="overlay">
+        <div class="geroy__overlay">
           <div class="container">
-            <div class="geroy-content">
-              <h1 class="geroy-title">
+            <div class="geroy__content">
+              <h1 class="geroy__title">
                 Эффективные решения<br />для вашего бизнеса
               </h1>
 
-              <button class="button-geroy" data-modal-open>
+              <button class="geroy__button" data-modal-open>
                 Заказать услугу
               </button>
             </div>
@@ -75,9 +75,9 @@
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
 
-          <ul class="fatyres-list">
-            <li class="fatyres-item">
-              <div class="box-icon">
+          <ul class="fatyres__list">
+            <li class="fatyres__item">
+              <div class="fatyres__box-icon">
                 <svg class="fatures-icon" width="70" height="70">
                   <use href="./img/symbol-defs.svg#icon-antenna-1"></use>
                 </svg>
@@ -90,8 +90,8 @@
               </p>
             </li>
 
-            <li class="fatyres-item">
-              <div class="box-icon">
+            <li class="fatyres__item">
+              <div class="fatyres__box-icon">
                 <svg class="fatures-icon" width="70" height="70">
                   <use href="./img/symbol-defs.svg#icon-clock-1"></use>
                 </svg>
@@ -104,8 +104,8 @@
               </p>
             </li>
 
-            <li class="fatyres-item">
-              <div class="box-icon">
+            <li class="fatyres__item">
+              <div class="fatyres__box-icon">
                 <svg class="fatures-icon" width="70" height="70">
                   <use href="./img/symbol-defs.svg#icon-diagram-1"></use>
                 </svg>
@@ -118,8 +118,8 @@
               </p>
             </li>
 
-            <li class="fatyres-item">
-              <div class="box-icon">
+            <li class="fatyres__item">
+              <div class="fatyres__box-icon">
                 <svg class="fatures-icon" width="70" height="70">
                   <use href="./img/symbol-defs.svg#icon-astronaut-1"></use>
                 </svg>
