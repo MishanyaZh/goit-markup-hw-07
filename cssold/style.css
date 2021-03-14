@@ -47,9 +47,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 0px 15px;
-
-  /* outline: 1px solid green; */
-  /* background-color: greenyellow; */
 }
 
 /* header */
@@ -191,8 +188,7 @@ body {
 }
 
 .contact__icon-mail,
-.contact__icon-tel {
-  /* fill: var(--grey-text-color); */
+.contact__icon-tel {/* fill: var(--grey-text-color); */
   fill: currentColor;
 
   margin-right: 10px;
@@ -201,9 +197,7 @@ body {
 .contact__icon-mail:hover,
 .contact__icon-tel:hover,
 .contact__icon-mail:focus,
-.contact__icon-tel:focus {
-  /* fill: var(--accent-color); */
-
+.contact__icon-tel:focus {/* fill: var(--accent-color); */
   fill: currentColor;
 }
 
@@ -283,7 +277,6 @@ body {
 }
 
 .fatyres__item {
-  /* height: 101px; */
   height: auto;
   margin-right: 30px;
 }
@@ -431,7 +424,7 @@ body {
   line-height: 19px;
   letter-spacing: 0.03em;
 }
-
+/* ---------------- */
 /* social-links */
 
 .social {
@@ -468,6 +461,8 @@ body {
   background-color: var(--accent-color);
   fill: var(--white-text-color);
 }
+
+/* --------------------- */
 
 /* clients */
 
@@ -590,10 +585,6 @@ body {
 
 /* footer-subscription */
 
-.subscription {
-  /* margin-left: 93px; */
-}
-
 .footer-form {
   display: flex;
   flex-direction: row;
@@ -672,6 +663,8 @@ body {
 /* STR 2 */
 /* portfolio */
 
+/* filter-buttton */
+
 .filter-buttton {
   padding-top: 94px;
 }
@@ -717,7 +710,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* filter-list */
+/* cards-list */
 
 .cards-list__container {
   margin-top: 50px;
@@ -952,11 +945,6 @@ body {
   fill: var(--accent-color);
 }
 
-/* .form__icon:hover .form-input {
-  border: 1px solid rgba(33, 150, 243, 1);
-  outline: none;
-} */
-
 .form__input:focus ~ .form__icon,
 .form__input:hover ~ .form__icon {
   fill: var(--accent-color);
@@ -998,8 +986,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.consent {
-}
+/* .consent {} */
 
 .consent__label {
   display: flex;
