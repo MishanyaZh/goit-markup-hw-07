@@ -22,11 +22,12 @@
 
 .activities-list__item {
   position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.activities-list__item:not(:last-child) {
-  margin-right: 30px;
-}
 
 .activities-list__foto {
   display: block;

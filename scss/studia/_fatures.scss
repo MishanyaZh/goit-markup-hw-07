@@ -11,10 +11,10 @@
 .fatyres__item {
   height: auto;
   margin-right: 30px;
-}
 
-.fatyres__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .fatyres__box-icon {

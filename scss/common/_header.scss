@@ -94,10 +94,10 @@
   justify-content: center;
   align-items: center;
   display: flex;
-}
 
-.contact__item:last-child {
-  padding: 0;
+  &:last-child {
+    padding: 0;
+  }
 }
 
 .contact__link {

@@ -49,7 +49,6 @@
 
 .social__link--footer {
   fill: var(--white-text-color);
-
   background-color: var(--footer-social-icon-bg);
 
   transition: background-color 250ms var(--anim-func);
@@ -86,9 +85,9 @@
   &:hover {
     border: 1px solid var(--accent-color);
   }
-}
 
-.footer-form__input::placeholder {
-  padding-left: 16px;
-  color: var(--footer-imput-placehold);
+  &::placeholder {
+    padding-left: 16px;
+    color: var(--footer-imput-placehold);
+  }
 }
